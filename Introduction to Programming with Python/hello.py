@@ -1,1 +1,5 @@
-print("hello,world")
+# ASk user for their name
+name = input("what is your name:").strip().title()
+#say hello to user
+print(f'hello {name}' , )
+print('hello, '+ name)
